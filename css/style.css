@@ -1,124 +1,123 @@
- :root {
+:root {
   --whiteColor: #ffffff;
   --yellowColor: #e9d204;
   --blackColor: #000000;
-  background:  #e7d106;
+  background: #e7d106;
   font-size: 24px;
-}  
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", "Poppins-Black", "Poppins-Italic", "Poppins-Light","Poppins-Thin", " Poppins-SemiBold",  "Poppins-Bold", "Poppins-BlackItalic";
-
 }
 
-body{
- background: #e7d106;
- width: 100vw;
- height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Poppins-Black", "Poppins-Italic", "Poppins-Light",
+    "Poppins-Thin", " Poppins-SemiBold", "Poppins-Bold", "Poppins-BlackItalic";
 }
 
-.container{
-  margin: 0px 0px 0px 0px
+body {
+  background: #e7d106;
+  width: 100vw;
+  height: 100vh;
 }
 
-.taxis{
-position: absolute;
-margin: -83px;
-border: #ffffff 3px solid;
+.container {
+  margin: 0px 0px 0px 0px;
 }
 
-.header-background{
-  background: url("/img/CATEDRAL.png");
+.taxis {
+  position: absolute;
+}
+
+.header-background {
+  background: url("https://i.ibb.co/g3Qn1p0/CATEDRAL.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
   min-height: 600px;
- 
   padding-left: 10vw;
 }
 
-.header-h1, .header-h2, .header-h3{
+.header-h1,
+.header-h2,
+.header-h3 {
   padding-top: 20px;
   margin: 20px auto;
 }
 
-.header-logo__pick{
+.header-logo__pick {
   padding-top: 40px;
 }
-.header-paragraph{
+.header-paragraph {
   color: var(--whiteColor);
   font-size: 1.5rem;
 }
 
-.logo{
+.logo {
   padding-left: 56px;
   padding-top: 56px;
 }
-.header-h1{
+.header-h1 {
   color: var(--whiteColor);
   font-size: 2rem;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .header-h2 {
   color: var(--yellowColor);
   font-size: 3rem;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   font-weight: 800;
 }
 
-.header-h3{
+.header-h3 {
   color: var(--whiteColor);
   font-size: 1rem;
   font-weight: 300;
-  letter-spacing: 7px;
+  letter-spacing: 6px;
 }
-.footer__paragraph{
-   color: var(--blackColor);
-   display: inline-block;
-   font-size: 1.2rem;
-   font-family: "Poppins-Bold";
-   font-weight: 500;
-   padding-left: 7vw;
-   padding-top: 30vh;
-}
-
-.footer__logo-qr{
-    position: relative;
-    min-width: 10px;
-    padding-top: 10vh;
+.footer__paragraph {
+  color: var(--blackColor);
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "Poppins-Bold";
+  font-weight: 500;
+  padding-left: 7vw;
+  padding-top: 30vh;
 }
 
-@media screen and (max-width: 645px) {
-  body{
+.footer__logo-qr {
+  padding-top: 10vh;
+}
+
+.footer__logo-playstore {
+  height: 100px;
+  width: 328px;
+}
+
+@media screen and (max-width: 1025px) {
+  body {
     background: #e7d106;
     height: 100vh;
     width: 100vw;
   }
-  .taxis-logo__pick{
+  .taxis-logo__pick,
+  .taxis {
     position: relative;
-    bottom: 10vh;
-  
+    bottom: -8% auto;
   }
-  .header-h1, .header-h2, .header-h3{
+  .header-h1,
+  .header-h2,
+  .header-h3 {
     width: 78%;
     font-size: 2rem;
   }
-  .header-h1{
+  .header-h1 {
     color: var(--whiteColor);
   }
-  .header-h2{
+  .header-h2 {
     color: var(--yellowColor);
   }
-  .header-h3{
-    color:var(--whiteColor)
+  .header-h3 {
+    color: var(--whiteColor);
   }
 }
-
-.header-logo__pick{
-  padding-left: 10px auto;
-}
-
